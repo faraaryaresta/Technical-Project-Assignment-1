@@ -312,11 +312,6 @@ nav ul li a.active{
     display: block;
 }
 
-#users-icon{
-    color: var(--color-gray-light);
-    padding-top: 8px;
-}
-
 .aksi .box-container .box .content h5{
     color: var(--color-gray-light);
     padding-left: 15px;
@@ -336,7 +331,7 @@ nav ul li a.active{
 .btn-aksi{
     cursor: pointer;
     color: var(--color-bg) !important;
-    background-color: var(--color-success) !important;
+    background-color: var(--color-main) !important;
     font-size: 1rem;
     padding: .5rem 3rem;
     margin:  2rem;
@@ -345,7 +340,7 @@ nav ul li a.active{
 }
 
 .btn-aksi:hover{
-    background-color: var(--color-main) !important;
+    background-color: #a76869 !important;
 }
 
 .contact-text{
