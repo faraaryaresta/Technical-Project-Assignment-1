@@ -9,10 +9,6 @@
     --color-black: #020202;
     --color-gray: #595959;
     --color-gray-light: #6C6C6C;
-    --color-red: #FF4D4F;
-    --color-primary: #0D6AEC;
-    --color-primary-light: #E1EEFF;
-    --color-primary-dark: #124B7B;
     --border: .1rem solid rgba(255,255,255,.3);
    
 }
@@ -487,7 +483,7 @@ nav ul li a.active{
 footer{
     width: 100%;
     bottom: 0px;
-    background: var(--color-main);
+    padding-top: 5rem;
 }
 
 .footer-bottom .copyright{
@@ -496,4 +492,5 @@ footer{
     color: var(--color-bg);
     display: flex;
     justify-content: center;
+    background: var(--color-main);
 }
